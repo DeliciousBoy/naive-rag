@@ -1,0 +1,9 @@
+name: Install uv
+description: "install uv"
+runs:
+  using: composite
+  steps:
+    - name: Install uv
+      uses: astral-sh/setup-uv@v3
+      with:
+        version: "0.6.11"
